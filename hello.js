@@ -1,6 +1,8 @@
 // This file does a bunch of hello world things.
-function addMeTogether(x,y) {
-	return x + y;
+
+// This is the new agreed upon add function
+function add(a, b) {
+  console.log( a + b);
 }
 
 // This is a function that prints hello world.
@@ -9,4 +11,4 @@ function helloWorld() {
 }
 
 helloWorld();
-addMeTogether(2,4);
+add(2,4);
